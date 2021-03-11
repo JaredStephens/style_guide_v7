@@ -11,6 +11,9 @@ $breakpoint-tablet: 768px;
 .nav-link:hover{
     background-color: $headline-color;
 }
+.input{
+    border-bottom: 5px solid $headline-color;
+}
 
 *, .headline-secondary{
     color: $main-color;

@@ -1,0 +1,9 @@
+$fw300: 300;
+$font-fam: 'Lato', sans-serif;
+
+.headline-secondary, .blockqoute{
+    font-weight: $fw300;
+}
+*{
+    font-family: $font-fam;
+}
