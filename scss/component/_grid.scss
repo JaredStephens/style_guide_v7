@@ -1,0 +1,5 @@
+$flex-column: column;
+
+.row, .nav{
+    flex-direction: $flex-column;
+}
