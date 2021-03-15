@@ -387,17 +387,24 @@ template {
   border-radius: 5px;
 }
 
-.btn {
-  padding: 10px 30px;
+.default {
+  background-color: #51ddfc;
 }
 
-.btn + .btn {
-  margin-left: 10px;
+.error {
+  background-color: #e4757a;
 }
 
-.logo {
-  margin-left: initial;
-  margin-right: initial;
+.info {
+  background-color: #927bc1;
+}
+
+.success {
+  background-color: #63cc82;
+}
+
+.warning {
+  background-color: #fd7856;
 }
 
 .form {
