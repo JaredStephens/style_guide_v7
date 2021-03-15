@@ -1,9 +1,34 @@
-$fw300: 300;
-$font-fam: 'Lato', sans-serif;
-
 .headline-secondary, .blockqoute{
     font-weight: $fw300;
 }
 *{
     font-family: $font-fam;
+}
+
+.headline-primary{
+    color: $headline-color;
+}
+.nav-link:hover{
+    background-color: $headline-color;
+}
+.input{
+    border-bottom: 5px solid $headline-color;
+}
+
+*, .headline-secondary{
+    color: $main-color;
+}
+
+.theme.col-1, .info{
+    background-color: $light-purple;
+}
+.theme.col-11, .default{
+    background-color: $aqua;
+}
+.theme-col-2, .warning{
+    background-color: $orange;
+}
+
+@media(min-width: $breakpoint-tablet){
+    
 }
