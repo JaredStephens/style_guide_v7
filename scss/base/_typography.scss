@@ -1,30 +1,38 @@
-.headline-secondary, .blockqoute{
-    font-weight: $fw300;
-}
-*{
-    font-family: $font-fam;
-}
-
-.headline-primary{
-    color: $headline-color;
-}
-.nav-link:hover{
-    background-color: $headline-color;
-}
-.input{
-    border-bottom: 5px solid $headline-color;
+* {
+	font-family: "Lato", sans-serif;
+	color: #777;
+	box-sizing: border-box;
 }
 
-*, .headline-secondary{
-    color: $main-color;
+p {
+	line-height: 1.45em;
 }
 
-.theme.col-1, .info{
-    background-color: $light-purple;
+a {
+	text-decoration: none;
 }
-.theme.col-11, .default{
-    background-color: $aqua;
+
+.headline-primary {
+	color: $headline-color;
+	margin-left: 10px;
 }
-.theme-col-2, .warning{
-    background-color: $orange;
+
+.headline-secondary {
+	font-weight: 300;
+	color: $main-color;
+}
+
+.link {
+	color: $aqua;
+	font-weight: 700;
+}
+
+.blockquote {
+	font-size: 1.5em;
+	font-weight: 300;
+	font-style: italic;
+	margin-left: 20px;
+	padding-left: 20px;
+	border-left: 8px solid $headline-color;
+	border-radius: 5px;
 }

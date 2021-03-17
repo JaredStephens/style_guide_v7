@@ -341,40 +341,44 @@ template {
   display: none;
 }
 
-.headline-secondary, .blockqoute {
-  font-weight: 300;
-}
-
 * {
   font-family: "Lato", sans-serif;
+  color: #777;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+p {
+  line-height: 1.45em;
+}
+
+a {
+  text-decoration: none;
 }
 
 .headline-primary {
   color: #58e1c1;
+  margin-left: 10px;
 }
 
-.nav-link:hover {
-  background-color: #58e1c1;
-}
-
-.input {
-  border-bottom: 5px solid #58e1c1;
-}
-
-*, .headline-secondary {
+.headline-secondary {
+  font-weight: 300;
   color: #777;
 }
 
-.theme.col-1, .info {
-  background-color: #927bc1;
+.link {
+  color: #51ddfc;
+  font-weight: 700;
 }
 
-.theme.col-11, .default {
-  background-color: #51ddfc;
-}
-
-.theme-col-2, .warning {
-  background-color: #fd7856;
+.blockquote {
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid #58e1c1;
+  border-radius: 5px;
 }
 
 .btn {
