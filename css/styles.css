@@ -449,7 +449,7 @@ a {
   padding: 1em 10px;
 }
 
-[class^=col] {
+[class^="col"] {
   margin-top: 10px;
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;

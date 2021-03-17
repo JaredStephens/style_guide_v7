@@ -1,6 +1,6 @@
 * {
 	font-family: "Lato", sans-serif;
-	color: #777;
+	color: $main-color;
 	box-sizing: border-box;
 }
 
@@ -18,7 +18,7 @@ a {
 }
 
 .headline-secondary {
-	font-weight: 300;
+	font-weight: $fw300;
 	color: $main-color;
 }
 
